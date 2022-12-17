@@ -4,6 +4,7 @@
   "description": "test",
   "main": "app.js",
   "scripts": {
+    "build": "npm install nodemon && npm install dotenv && npm install express && npm install mongoose",
     "start": "nodemon server.js"
   },
   "author": "raja",
